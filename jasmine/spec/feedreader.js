@@ -83,7 +83,8 @@ $(function () {
         });
 
         it('work is completed', function () {
-            const item = document.querySelector('.feed');
+            const item = document.querySelector('.feed .entry');
+            // console.log(item);
             expect(item.children.length > 0).toBe(true);
         })
     });
